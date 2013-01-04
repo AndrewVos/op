@@ -1,5 +1,8 @@
 require "argumentsicles/version"
+require "argumentsicles/parser"
 
 module Argumentsicles
-  # Your code goes here...
+  def execute klass, arguments
+    klass.new.execute(Parser.new(klass, arguments).parse)
+  end
 end
