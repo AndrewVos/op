@@ -1,15 +1,15 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'argumentsicles/version'
+require 'mop/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "argumentsicles"
-  gem.version       = Argumentsicles::VERSION
+  gem.name          = "mop"
+  gem.version       = Mop::VERSION
   gem.authors       = ["Andrew Vos"]
   gem.email         = ["andrew.vos@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{MOAR OPTION PARSING}
+  gem.summary       = %q{MOAR OPTION PARSING}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)

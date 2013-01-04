@@ -1,7 +1,7 @@
-require "argumentsicles/version"
-require "argumentsicles/parser"
+require "mop/version"
+require "mop/parser"
 
-module Argumentsicles
+module Mop
   def execute klass, arguments
     klass.new.execute(Parser.new(klass, arguments).parse)
   end

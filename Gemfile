@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in argumentsicles.gemspec
+# Specify your gem's dependencies in mop.gemspec
 gemspec

@@ -1,4 +1,4 @@
-module Argumentsicles
+module Mop
   class Parser
     def initialize klass
       @klass = klass

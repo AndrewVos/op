@@ -1,4 +1,4 @@
-# Argumentsicles
+# Mop
 
 TODO: Write a gem description
 
@@ -6,7 +6,7 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'argumentsicles'
+    gem 'mop'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install argumentsicles
+    $ gem install mop
 
 ## Usage
 
@@ -27,3 +27,6 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Recognition
+Thanks to judofyr and injekt for the gem name!

@@ -3,9 +3,9 @@ require "minitest/autorun"
 require "minitest/pride"
 
 $:.unshift(File.expand_path(File.join(File.dirname(__FILE__), "../lib")))
-require "argumentsicles/parser"
+require "mop/parser"
 
-module Argumentsicles
+module Mop
   class TestParser < MiniTest::Unit::TestCase
     class Example
       class SimpleCommand
