@@ -2,7 +2,7 @@ require "minitest/unit"
 require "minitest/autorun"
 require "minitest/pride"
 
-$:.unshift(File.expand_path(File.join(File.dirname(__FILE__), "../lib")))
+$:.unshift(File.expand_path(File.join(File.dirname(__FILE__), "../../lib")))
 require "mop/parser"
 
 module Mop
