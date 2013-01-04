@@ -1,4 +1,4 @@
-# Mop
+# Op
 
 TODO: Write a gem description
 
@@ -6,7 +6,7 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'mop'
+    gem 'op'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install mop
+    $ gem install op
 
 ## Usage
 
@@ -30,3 +30,4 @@ TODO: Write usage instructions here
 
 ## Recognition
 Thanks to judofyr and injekt for the gem name!
+Note: Gem name changed to "op" from "mop" after rking whined that he was about to release a gem called "mop"

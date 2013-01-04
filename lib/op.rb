@@ -1,7 +1,7 @@
-require "mop/version"
-require "mop/parser"
+require "op/version"
+require "op/parser"
 
-module Mop
+module Op
   def execute klass, arguments
     klass.new.execute(Parser.new(klass, arguments).parse)
   end

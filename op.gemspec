@@ -1,15 +1,15 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'mop/version'
+require 'op/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "mop"
-  gem.version       = Mop::VERSION
+  gem.name          = "op"
+  gem.version       = Op::VERSION
   gem.authors       = ["Andrew Vos"]
   gem.email         = ["andrew.vos@gmail.com"]
-  gem.description   = %q{MOAR OPTION PARSING}
-  gem.summary       = %q{MOAR OPTION PARSING}
+  gem.description   = %q{ERMAHGERD ARPTERN PERSING}
+  gem.summary       = %q{ERMAHGERD ARPTERN PERSING}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)

@@ -1,4 +1,4 @@
-module Mop
+module Op
   class Parser
     def initialize klass
       @klass = klass
